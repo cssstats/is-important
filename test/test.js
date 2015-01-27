@@ -3,13 +3,14 @@ var isImportant = require('..');
 
 var importantValues = [
   'blue !important;',
-  'thin solid #fafafa !important'
+  'thin solid #fafafa !important',
+  'transparent !important'
 ];
 
 var unimportantValues = [
   'green',
   'thin solid #fafafa',
-  'url(http://foo.bar/img.jpg)'
+  'url(http://foo.bar/important.jpg)',
 ]
 
 describe('is-important', function() {
