@@ -1,6 +1,6 @@
 # is-important
 
-[![Build Status](https://secure.travis-ci.org/johnotander/is-important.png?branch=master)](https://travis-ci.org/johnotander/is-important)
+[![Build Status](https://secure.travis-ci.org/cssstats/is-important.png?branch=master)](https://travis-ci.org/cssstats/is-important)
 
 Check to see if a CSS declaration value is `!important`.
 
