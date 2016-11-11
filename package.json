@@ -1,30 +1,23 @@
 {
   "name": "is-important",
-  "description": "Check to see if a CSS declaration value is !important.",
+  "description": "Check to see if a css declaration value is !important",
   "author": "John Otander",
   "version": "0.0.1",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "mocha test"
+    "test": "ava -v"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/johnotander/is-important.git"
-  },
+  "repository": "cssstats/is-important",
   "keywords": [
     "css",
     "important"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/johnotander/is-important/issues"
-  },
-  "homepage": "https://github.com/johnotander/is-important",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "ava": "^0.16.0"
   }
 }
